@@ -1,0 +1,38 @@
+---
+layout: default
+title: Home
+---
+
+<div class="home">
+  <h1 class="page-heading">Welcome to Our English Training Institute</h1>
+
+  <p class="lead">
+    Professional English language training for all levels.
+    Building confident communicators since 2010.
+  </p>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>General English Courses</li>
+      <li>Business English</li>
+      <li>IELTS & TOEFL Preparation</li>
+      <li>Conversation Practice</li>
+      <li>Customized Corporate Training</li>
+    </ul>
+  </section>
+
+  {%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "Latest Updates" }}</h2>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      </h3>
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+</div>

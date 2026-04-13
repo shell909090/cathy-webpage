@@ -1,0 +1,30 @@
+title: English Training Institute
+email: contact@example.com
+description: >-
+  Professional English language training for all levels.
+  Building confident communicators since 2010.
+baseurl: ""
+url: "https://example.com"
+twitter_username: example
+github_username:  example
+
+minima:
+  skin: auto
+  social_links:
+    twitter: https://twitter.com/example
+    github:  https://github.com/example
+
+permalink: /:title/
+timezone: America/New_York
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE.txt
+  - CNAME
