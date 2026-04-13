@@ -19,3 +19,6 @@ permalink: /about/
   <li>灵活的课程安排</li>
   <li>卓越的教学成果</li>
 </ul>
+
+<h2>联系我们</h2>
+<p>请访问我们的 <a href="{{ "/contact/" | relative_url }}">联系方式</a> 页面，扫描微信公众号二维码关注我们。</p>

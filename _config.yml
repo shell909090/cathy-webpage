@@ -1,5 +1,4 @@
 title: 英语培训中心
-email: contact@example.com
 description: >-
   专业英语语言培训，适合各级别学员。
   自2010年以来，帮助学员建立自信沟通能力。
@@ -9,16 +8,6 @@ author: 英语培训中心
 
 theme: minima
 
-twitter_username: example
-github_username:  example
-
-minima:
-  skin: auto
-  social_links:
-    twitter: https://twitter.com/example
-    github:  https://github.com/example
-
-permalink: /:title/
 timezone: Asia/Shanghai
 
 plugins:
