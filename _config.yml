@@ -1,10 +1,14 @@
-title: English Training Institute
+title: 英语培训中心
 email: contact@example.com
 description: >-
-  Professional English language training for all levels.
-  Building confident communicators since 2010.
+  专业英语语言培训，适合各级别学员。
+  自2010年以来，帮助学员建立自信沟通能力。
 baseurl: ""
 url: "https://example.com"
+author: 英语培训中心
+
+theme: minima
+
 twitter_username: example
 github_username:  example
 
@@ -15,7 +19,7 @@ minima:
     github:  https://github.com/example
 
 permalink: /:title/
-timezone: America/New_York
+timezone: Asia/Shanghai
 
 plugins:
   - jekyll-feed

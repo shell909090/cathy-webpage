@@ -1,29 +1,29 @@
 ---
 layout: default
-title: Home
+title: 首页
 ---
 
 <div class="home">
-  <h1 class="page-heading">Welcome to Our English Training Institute</h1>
+  <h1 class="page-heading">欢迎来到我们的英语培训中心</h1>
 
   <p class="lead">
-    Professional English language training for all levels.
-    Building confident communicators since 2010.
+    专业英语语言培训，适合各级别学员。
+    自2010年以来，帮助学员建立自信沟通能力。
   </p>
 
   <section class="services">
-    <h2>Our Services</h2>
+    <h2>我们的服务</h2>
     <ul>
-      <li>General English Courses</li>
-      <li>Business English</li>
-      <li>IELTS & TOEFL Preparation</li>
-      <li>Conversation Practice</li>
-      <li>Customized Corporate Training</li>
+      <li>通用英语课程</li>
+      <li>商务英语</li>
+      <li>雅思 & 托福备考</li>
+      <li>口语练习</li>
+      <li>企业定制培训</li>
     </ul>
   </section>
 
   {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "Latest Updates" }}</h2>
+  <h2 class="post-list-heading">{{ page.list_title | default: "最新动态" }}</h2>
   <ul class="post-list">
     {%- for post in site.posts -%}
     <li>

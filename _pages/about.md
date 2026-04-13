@@ -1,21 +1,21 @@
 ---
 layout: page
-title: About
+title: 关于我们
 permalink: /about/
 ---
 
-<h1>About Us</h1>
+<h1>关于我们</h1>
 
-<p>Welcome to our English Training Institute. We have been providing quality English language education since 2010.</p>
+<p>欢迎来到我们的英语培训中心。我们自2010年起开始提供优质的英语语言教育，帮助来自不同背景的学员实现他们的沟通目标。</p>
 
-<h2>Our Mission</h2>
-<p>To help students achieve their full potential through effective communication in English.</p>
+<h2>我们的使命</h2>
+<p>帮助学生充分发挥潜能，通过有效的英语交流实现人生目标。</p>
 
-<h2>Why Choose Us</h2>
+<h2>为什么选择我们</h2>
 <ul>
-  <li>Experienced, certified teachers</li>
-  <li>Small class sizes</li>
-  <li>Modern teaching methods</li>
-  <li>Flexible scheduling</li>
-  <li>Proven track record</li>
+  <li>经验丰富、资质认证的教师团队</li>
+  <li>小班授课</li>
+  <li>现代化教学方法</li>
+  <li>灵活的课程安排</li>
+  <li>卓越的教学成果</li>
 </ul>
