@@ -1,0 +1,17 @@
+---
+---
+
+@import "minima";
+
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: $background-color;
+}
+
+.page-content {
+  padding-bottom: 120px;
+}
