@@ -1,19 +1,9 @@
 ---
-layout: page
-title: 关于 SpeakUp
-permalink: /about-speakup/
----
-
-# 关于 SpeakUp / 预约试听
-
-## SEO Title
-
-关于 SpeakUp｜少儿英语外教口语平台｜预约试听
-
-## Meta Description
-
-了解 SpeakUp 英语外教平台。SpeakUp 专注少儿与青少年 1 对 1 在线外教口语课，提供分层教材、菲律宾持证外教和学习群跟进服务。
-
+layout: post
+title: 关于 SpeakUp｜少儿英语外教口语平台｜预约试听
+date: 2026-05-06
+description: >-
+  了解 SpeakUp 英语外教平台。SpeakUp 专注少儿与青少年 1 对 1 在线外教口语课，提供分层教材、菲律宾持证外教和学习群跟进服务。
 ---
 
 ## H1

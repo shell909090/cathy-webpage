@@ -1,19 +1,9 @@
 ---
-layout: page
-title: 学习路径
-permalink: /learning-path/
----
-
-# 学习路径
-
-## SEO Title
-
-少儿英语学习路径｜英语启蒙、小学口语、KET/PET过渡｜SpeakUp
-
-## Meta Description
-
-SpeakUp 根据孩子年龄、英语基础和目标，提供英语启蒙、小学基础、口语提升、综合能力进阶和 KET/PET 过渡路径建议。
-
+layout: post
+title: 少儿英语学习路径｜英语启蒙、小学口语、KET/PET过渡｜SpeakUp
+date: 2026-05-04
+description: >-
+  SpeakUp 根据孩子年龄、英语基础和目标，提供英语启蒙、小学基础、口语提升、综合能力进阶和 KET/PET 过渡路径建议。
 ---
 
 ## H1

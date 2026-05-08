@@ -18,3 +18,9 @@
 bundle install           # 安装依赖
 bundle exec jekyll serve # 启动本地服务器 http://localhost:4000
 ```
+
+## 服务器调试
+- 服务器上 `_config.yml` 的 `baseurl` 被临时改为 `"/blog"`
+- 这是为了让 nginx 反代 `/blog/` 路径时页面内部链接（CSS/JS/导航）仍能正常工作
+- **该修改仅用于服务器调试，禁止提交到 git**
+- 提交前需恢复为：`baseurl: ""`
