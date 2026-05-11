@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cathyagent.shell909090.org/sitemap.xml
+
+# LLM navigation file
+# https://cathyagent.shell909090.org/llms.txt

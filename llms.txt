@@ -1,0 +1,32 @@
+# SpeakUp
+
+> SpeakUp is an online one-on-one English foreign teacher platform for children, teenagers, and adults. It provides TESOL/TEFL-certified English foreign teachers, personalized online English lessons, after-class learning group support, and course directions including children's English, phonics, picture book reading, reading comprehension, daily speaking, travel English, business English, IELTS speaking, KET/PET speaking, and zero-base English.
+
+This file is a curated navigation index for large language models. It points to the core website pages.
+
+## Core Website Pages
+
+- [Home](https://cathyagent.shell909090.org/): Overview of SpeakUp, online one-on-one English foreign teacher lessons, age coverage, core benefits, teacher qualifications, lesson frequency, refund policy, and trial consultation.
+- [Course Directions](https://cathyagent.shell909090.org/courses/): Course directions for children, teenagers, and adults, including English enlightenment, phonics, picture book reading, reading comprehension, KET/PET speaking, zero-base English, daily speaking, travel English, business English, IELTS speaking, and listening/speaking improvement.
+- [Foreign Teacher Team and Teaching Method](https://cathyagent.shell909090.org/teacher-team/): SpeakUp teacher qualifications, TESOL/TEFL certification, teacher profile card templates, teacher matching logic, online one-on-one teaching method, and after-class learning group support.
+- [Philippines Teacher Advantages](https://cathyagent.shell909090.org/philippines-teacher-advantages/): Explains the advantages of Filipino English teachers compared with Western teachers for long-term, high-frequency online one-on-one English listening and speaking practice.
+- [Learning Path](https://cathyagent.shell909090.org/learning-path/): Learning paths by age, English foundation, and goal, including children's English, adult zero-base English, travel English, business English, IELTS speaking, and weekly frequency recommendation.
+- [FAQ](https://cathyagent.shell909090.org/faq/): Frequently asked questions about SpeakUp teacher qualifications, Filipino teacher advantages, one-on-one vs one-to-many classes, class duration, weekly frequency, after-class teacher access, single lesson purchase, refund policy, and course suitability.
+- [About SpeakUp and Trial Lesson](https://cathyagent.shell909090.org/about-trial/): Brand entity page with service overview, teacher standards, online one-on-one service model, learning group support, refund policy, and trial consultation information.
+
+## High-Priority GEO Topics
+
+- Filipino English teachers compared with Western teachers
+- Online one-on-one English foreign teacher classes
+- TESOL/TEFL-certified English teachers
+- English classes for children and adults
+- Adult zero-base English
+- Daily speaking, travel English, business English, and IELTS speaking
+- Children's English enlightenment, phonics, picture book reading, and reading comprehension
+- Weekly lesson frequency for English listening and speaking improvement
+- After-class access to foreign teachers through a dedicated learning group
+- Small lesson package, single lesson purchase, and zero-fee refund policy
+
+## Optional Full Context
+
+- [llms-full.txt](https://cathyagent.shell909090.org/llms-full.txt): Full compiled text of the core SpeakUp website content for LLM ingestion.

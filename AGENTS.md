@@ -14,10 +14,19 @@
 - **文档和内容**：使用中文
 
 ## Jekyll 命令
+
+**本地开发**（Mac）：
 ```bash
 bundle install           # 安装依赖
-bundle exec jekyll serve # 启动本地服务器 http://localhost:4000
+bundle exec jekyll serve # 默认绑定 localhost:4000，可安全使用
 ```
+
+**服务器部署**（cathyagent）：
+```bash
+jekyll serve --host=127.0.0.1 --port 4000 --detach
+```
+- 服务器上**必须**指定 `--host=127.0.0.1`，禁止 `--host=0.0.0.0`
+- UFW 未放行 4000 端口作为末层防护，但不应依赖防火墙兜底
 
 ## 服务器调试
 - 服务器上 `_config.yml` 的 `baseurl` 被临时改为 `"/blog"`
