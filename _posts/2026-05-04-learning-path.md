@@ -3,6 +3,7 @@ layout: post
 title: SpeakUp 学习路径｜儿童英语、成人口语、零基础、雅思口语、商务英语
 date: 2026-05-04
 permalink: /learning-path/
+nav_title: 学习路径
 description: >-
   SpeakUp 根据不同年龄、英语基础和学习目标，提供儿童英语启蒙、自然拼读、绘本伴读、阅读理解、KET/PET 口语、成人零基础、日常口语、旅游英语、商务英语和雅思口语等学习路径。
 ---

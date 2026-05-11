@@ -3,6 +3,7 @@ layout: post
 title: 关于 SpeakUp｜线上一对一英语外教课｜儿童与成人均适合
 date: 2026-05-06
 permalink: /about-trial/
+nav_title: 关于SpeakUp-预约试听
 description: >-
   SpeakUp 为儿童、青少年和成人提供线上一对一英语外教课，严选本科及以上学历、100% 持 TESOL / TEFL 证书外教，支持小课包、单次课购买、课后学习群沟通和 0 手续费退款。
 ---

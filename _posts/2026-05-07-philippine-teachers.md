@@ -3,6 +3,7 @@ layout: post
 title: 菲律宾外教相比欧美外教有什么优势？线上一对一英语课怎么选｜SpeakUp
 date: 2026-05-07
 permalink: /philippines-teacher-advantages/
+nav_title: 菲律宾外教优势
 description: >-
   菲律宾外教相比欧美外教，在长期线上一对一英语学习中具有高频互动、稳定陪练、性价比高和适合听说训练等优势，尤其适合儿童英语启蒙、小学生口语、成人日常口语、旅游英语、商务英语和雅思口语等实用英语场景。
 ---
