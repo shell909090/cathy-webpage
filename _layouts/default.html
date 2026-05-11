@@ -10,16 +10,13 @@
 <body>
   {%- include header.html -%}
 
-  {%- if page.title -%}
+  {%- unless page.show_header == false -%}
   <header class="page-header">
     <div class="container">
-      <h1>{{ page.title | escape }}</h1>
-      {%- if page.description -%}
-        <p class="page-desc">{{ page.description | escape }}</p>
-      {%- endif -%}
+      <h1>{{ page.heading | default: page.title | escape }}</h1>
     </div>
   </header>
-  {%- endif -%}
+  {%- endunless -%}
 
   <main role="main">
     {{ content }}

@@ -4,13 +4,13 @@ title: SpeakUp 学习路径｜儿童英语、成人口语、零基础、雅思�
 date: 2026-05-04
 permalink: /learning-path/
 nav_title: 学习路径
+heading: 不同年龄、不同基础、不同目标，英语学习路径不一样
 description: >-
   SpeakUp 根据不同年龄、英语基础和学习目标，提供儿童英语启蒙、自然拼读、绘本伴读、阅读理解、KET/PET 口语、成人零基础、日常口语、旅游英语、商务英语和雅思口语等学习路径。
 ---
 
 <section class="v-section v-section-white">
   <div class="v-section-inner">
-    <h2 class="v-section-title">不同年龄、不同基础、不同目标，英语学习路径不一样</h2>
     <p class="v-section-subtitle">不要先问"报什么课"，先问自己想解决什么问题。英语学习不是所有人都走同一条路。儿童、青少年、成人的学习目标不同；零基础、口语弱、阅读弱、雅思口语、商务英语和旅游英语，也需要不同的课堂设计。SpeakUp 会根据学习者的年龄、基础、目标和可投入频次，匹配更适合的一对一外教课。</p>
   </div>
 </section>
