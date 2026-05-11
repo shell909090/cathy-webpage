@@ -1,5 +1,11 @@
 <footer class="site-footer">
-  <img src="{{ "/assets/images/wechat2.png" | relative_url }}" alt="微信" class="footer-icon">
+  <div class="container">
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author | default: site.title }}. 由 <a href="https://jekyllrb.com/">Jekyll</a> 提供支持</p>
+  </div>
+</footer>
+
+<div class="sticky-wechat-bar">
+  <img src="{{ '/assets/images/wechat2.png' | relative_url }}" alt="微信" class="footer-icon">
   <a href="https://work.weixin.qq.com/ca/cawcde190987826a58" onclick="if(/Mobi|Android|iPhone/i.test(navigator.userAgent)){this.href='weixin://biz/ww/profile/https%3A%2F%2Fwork.weixin.qq.com%2Fca%2Fcawcde190987826a58'}" class="footer-text">添加微信，约免费试听</a>
   <a href="https://work.weixin.qq.com/ca/cawcde190987826a58" onclick="if(/Mobi|Android|iPhone/i.test(navigator.userAgent)){this.href='weixin://biz/ww/profile/https%3A%2F%2Fwork.weixin.qq.com%2Fca%2Fcawcde190987826a58'}" class="footer-cta">立即领取 &gt;</a>
-</footer>
+</div>

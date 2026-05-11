@@ -1,38 +1,38 @@
 ---
 layout: default
-title: 首页
+title: 英语培训中心
+description: 专业英语语言培训，适合各级别学员。自2010年以来，帮助学员建立自信沟通能力。
 ---
 
-<div class="home">
-  <h1 class="page-heading">欢迎来到我们的英语培训中心</h1>
+<section class="v-hero">
+  <div class="v-hero-inner">
+    <h1>欢迎来到我们的英语培训中心</h1>
+    <p class="v-hero-desc">专业英语语言培训，适合各级别学员。自2010年以来，帮助学员建立自信沟通能力。</p>
+  </div>
+</section>
 
-  <p class="lead">
-    专业英语语言培训，适合各级别学员。
-    自2010年以来，帮助学员建立自信沟通能力。
-  </p>
-
-  <section class="services">
-    <h2>我们的服务</h2>
-    <ul>
-      <li>通用英语课程</li>
-      <li>商务英语</li>
-      <li>雅思 & 托福备考</li>
-      <li>口语练习</li>
-      <li>企业定制培训</li>
+<section class="v-section v-section-white">
+  <div class="v-section-inner">
+    <h2 class="v-section-title" style="text-align:center;">我们的服务</h2>
+    <ul class="v-feature-grid">
+      <li class="v-feature-item"><div class="v-feature-icon blue">📖</div><div class="v-feature-text"><strong>通用英语课程</strong></div></li>
+      <li class="v-feature-item"><div class="v-feature-icon orange">💼</div><div class="v-feature-text"><strong>商务英语</strong></div></li>
+      <li class="v-feature-item"><div class="v-feature-icon green">📝</div><div class="v-feature-text"><strong>雅思 & 托福备考</strong></div></li>
+      <li class="v-feature-item"><div class="v-feature-icon yellow">🗣️</div><div class="v-feature-text"><strong>口语练习</strong></div></li>
+      <li class="v-feature-item"><div class="v-feature-icon blue">🏢</div><div class="v-feature-text"><strong>企业定制培训</strong></div></li>
     </ul>
-  </section>
+  </div>
+</section>
 
-  {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "最新动态" }}</h2>
-  <ul class="post-list">
-    {%- for post in site.posts -%}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      </h3>
-    </li>
-    {%- endfor -%}
-  </ul>
-  {%- endif -%}
-</div>
+{%- if site.posts.size > 0 -%}
+<section class="v-section v-section-cool">
+  <div class="v-section-inner">
+    <h2 class="v-section-title">{{ page.list_title | default: "最新动态" }}</h2>
+    <ul class="v-cross-links">
+      {%- for post in site.posts -%}
+      <li><a href="{{ post.url | relative_url }}">{{ post.nav_title | default: post.title | escape }}</a></li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+{%- endif -%}

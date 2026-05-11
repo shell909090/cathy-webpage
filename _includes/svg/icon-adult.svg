@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="16" fill="#FFF5F0"/>
+  <circle cx="32" cy="22" r="10" fill="#FF6B35" opacity="0.8"/>
+  <circle cx="29" cy="19" r="2" fill="#fff"/>
+  <circle cx="35" cy="19" r="2" fill="#fff"/>
+  <path d="M27 25 Q32 28 37 25" stroke="#fff" stroke-width="1.5" fill="none"/>
+  <rect x="22" y="34" width="20" height="14" rx="4" fill="#FF6B35" opacity="0.25"/>
+  <rect x="28" y="38" width="8" height="3" rx="1.5" fill="#FF6B35" opacity="0.6"/>
+  <text x="32" y="57" text-anchor="middle" font-size="7" fill="#FF6B35">ADULT</text>
+</svg>

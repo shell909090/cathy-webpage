@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  {%- feed_meta -%}
+</head>
+<body>
+  {%- include header.html -%}
+
+  {%- if page.title -%}
+  <header class="page-header">
+    <div class="container">
+      <h1>{{ page.title | escape }}</h1>
+      {%- if page.description -%}
+        <p class="page-desc">{{ page.description | escape }}</p>
+      {%- endif -%}
+    </div>
+  </header>
+  {%- endif -%}
+
+  <main role="main">
+    {{ content }}
+  </main>
+
+  {%- include footer.html -%}
+</body>
+</html>
