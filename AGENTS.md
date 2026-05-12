@@ -13,23 +13,18 @@
 - **Git 和代码**：使用英文
 - **文档和内容**：使用中文
 
-## Jekyll 命令
-
-**本地开发**（Mac）：
-```bash
-bundle install           # 安装依赖
-bundle exec jekyll serve # 默认绑定 localhost:4000，可安全使用
-```
-
-**服务器部署**（cathyagent）：
-```bash
-jekyll serve --host=127.0.0.1 --port 4000 --detach
-```
-- 服务器上**必须**指定 `--host=127.0.0.1`，禁止 `--host=0.0.0.0`
-- UFW 未放行 4000 端口作为末层防护，但不应依赖防火墙兜底
+## Jekyll 构建与部署
+- 详见 `Makefile`，`make` / `make serve` / `make build` 等目标
 
 ## 服务器调试
-- 服务器上 `_config.yml` 的 `baseurl` 被临时改为 `"/blog"`
-- 这是为了让 nginx 反代 `/blog/` 路径时页面内部链接（CSS/JS/导航）仍能正常工作
-- **该修改仅用于服务器调试，禁止提交到 git**
-- 提交前需恢复为：`baseurl: ""`
+
+### 开发环境（开发服务器）
+- `make serve` 启动，自动叠加 `_config_dev.yml` 覆盖 `_config.yml`
+- `baseurl: "/blog/"`，`url: "https://cathyagent.shell909090.org/"`
+- nginx 反代 `/blog/` → `127.0.0.1:4000`，页面内部链接可正常工作
+- 绑定 `127.0.0.1:4000`，后台常驻（`--detach`）
+
+### 生产环境（GitHub Pages）
+- 生产环境两套，一套GitHub Pages无需管理。另一套共享主机
+- `make build` 编译静态站点，输出到 `_site/`，用于上传共享主机
+- 读取 `_config.yml`：`baseurl: "/"`，`url: "https://cathy.shell909090.org/"`
